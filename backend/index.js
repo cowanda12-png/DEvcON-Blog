@@ -28,7 +28,9 @@ if (!fs.existsSync(uploadDir)) {
 }
 
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173",
+        "https://d-evc-on-blog-seven.vercel.app"
+    ],
     credentials: true,
 }));
 
