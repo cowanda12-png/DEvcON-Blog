@@ -4,7 +4,7 @@ const config = {
    },
 
    production: {
-      apiUrl:"https://devcon-blog-nhoz.onrender.com"
+      apiUrl:"https://devcon-blog-nhoz.onrender.com/"
    }
 };
 export default config;
