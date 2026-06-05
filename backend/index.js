@@ -27,6 +27,14 @@ if (!fs.existsSync(uploadDir)) {
   console.log("📁 Uploads folder already exists at:", uploadDir);
 }
 
+// test api
+
+app.get ("/", (req, res)=> {
+    res.json({
+        message: "Backend is running",
+        status: "ok"
+    });
+});
 app.use(cors({
     origin: ["http://localhost:5173",
         "https://d-evc-on-blog-seven.vercel.app"
