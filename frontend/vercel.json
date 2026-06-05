@@ -1,5 +1,9 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/((?!api/|static/|_next/).*)",
+      "destination": "/"
+    }
   ]
 }
+
