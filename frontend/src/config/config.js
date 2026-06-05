@@ -1,10 +1,11 @@
 const config = {
    development: {
-      apiUrl: "http://localhost:5000"
+      // Your development config properties here
    },
 
    production: {
-      apiUrl:"https://devcon-blog-nhoz.onrender.com/"
+      apiUrl: "https://devcon-blog-nhoz.onrender.com"
    }
 };
+
 export default config;
